@@ -1,4 +1,4 @@
-library IEEE;
+	library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity MUX4X1 is 
@@ -15,7 +15,7 @@ begin
 S<=A when SEL = "00" else
 	B when SEL = "01" else
 	C when SEL = "10" else
-	z;
+	D;
 
 
 end circuito;
